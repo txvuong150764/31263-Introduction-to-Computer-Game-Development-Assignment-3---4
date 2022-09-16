@@ -106,36 +106,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_DeathState_0
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 133
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c218a1b0f1e0e34c98ab2e65c6e3f1f
-      internalID: 2028379961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Player_DeathState_1
       rect:
         serializedVersion: 2
         x: 557
         y: 110
-        width: 61
-        height: 27
+        width: 70
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,37 +127,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_DeathState_2
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 130
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dca5b3c59254914294aab5375094d05
-      internalID: 444401677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Player_DeathState_3
       rect:
         serializedVersion: 2
-        x: 173
+        x: 175
         y: 110
-        width: 61
-        height: 20
+        width: 65
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -201,6 +159,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Player_DeathState_2: 444401677
+      Player_DeathState_4: -1671955099
       Player_DeathState_0: 2028379961
       Player_DeathState_1: -1258436966
       Player_DeathState_3: -427707306

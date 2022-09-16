@@ -106,69 +106,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost_RecoverState_0
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 417
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68ecd6df5ade9f3439a3e92c928efa71
-      internalID: -1967357083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost_RecoverState_1
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 407
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb3fb8ea478e82144a994468e779fa8b
-      internalID: 1830223825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost_RecoverState_2
-      rect:
-        serializedVersion: 2
-        x: 597
-        y: 408
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5cc5408ae08100449e19928b7dd9a53
-      internalID: -1431875622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Ghost_RecoverState_3
       rect:
         serializedVersion: 2
@@ -177,7 +114,7 @@ TextureImporter:
         width: 40
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,36 +127,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_RecoverState_4
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 386
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f619ea5bfc0c5d4e8e36bb84d5797c8
-      internalID: -517018296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Ghost_RecoverState_5
       rect:
         serializedVersion: 2
-        x: 556
-        y: 360
-        width: 40
-        height: 48
+        x: 543
+        y: 361
+        width: 74
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,27 +143,6 @@ TextureImporter:
       bones: []
       spriteID: cebbea74bdc491346915ab35746b6993
       internalID: 1612558030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost_RecoverState_6
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 390
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 710ac5ccf6bd3094185c6bb0cba0fd28
-      internalID: -1190304307
       vertices: []
       indices: 
       edges: []
@@ -261,7 +156,7 @@ TextureImporter:
         width: 40
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,99 +169,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_RecoverState_8
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 161
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfdf940925c24374c9cdff06fa8b7d47
-      internalID: -1877342595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost_RecoverState_9
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 151
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2dcf965334b5494fbd9059d605d802d
-      internalID: 498311804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost_RecoverState_10
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 152
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e174b0a2fd2c8d54c90f58620848f3dd
-      internalID: -1958099259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost_RecoverState_11
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 130
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a51fe94123ab2aa47a9b7b12909da271
-      internalID: 1079101778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Ghost_RecoverState_12
       rect:
         serializedVersion: 2
-        x: 172
+        x: 161
         y: 104
-        width: 40
-        height: 48
+        width: 63
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,27 +185,6 @@ TextureImporter:
       bones: []
       spriteID: f7042f1c72be518478193fb9b2dc5b8f
       internalID: -461417268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost_RecoverState_13
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 134
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e6952151f631624399306a742b21e0d
-      internalID: -149045586
       vertices: []
       indices: 
       edges: []
@@ -414,6 +204,7 @@ TextureImporter:
       Ghost_RecoverState_6: -1190304307
       Ghost_RecoverState_10: -1958099259
       Ghost_RecoverState_13: -149045586
+      Ghost_RecoverState_14: -2146129
       Ghost_RecoverState_5: 1612558030
       Ghost_RecoverState_12: -461417268
       Ghost_RecoverState_11: 1079101778
