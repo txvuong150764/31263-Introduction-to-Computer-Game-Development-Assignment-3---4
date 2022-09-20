@@ -49,24 +49,23 @@ public class PlayerMovement : MonoBehaviour
     {
         if (activeTween == null)
         {
-            if (pos.x == -7.7f && pos.y == 13.3f) // Move Down
+            if (pos.x == -7f && pos.y == 13f) // Move Down
             {
-                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-7.7f, 9.5f, 0.0f), Time.time, 1.5f);
+                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-7f, 9f, 0.0f), Time.time, 1.5f);
             }
-            if (pos.x == -7.7f && pos.y == 9.5f) // Move Left
+            if (pos.x == -7f && pos.y == 9f) // Move Left
             {
-                Debug.Log("2");
-                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-12.6f, 9.5f, 0.0f), Time.time, 1.5f);
-            }
-
-            if (pos.x == -12.6f && pos.y == 9.5f) // Move Up
-            {
-                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-12.6f, 13.3f, 0.0f), Time.time, 1.5f);
+                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-12f, 9f, 0.0f), Time.time, 1.5f);
             }
 
-            if (pos.x == -12.6f && pos.y == 13.3f) // Move Right
+            if (pos.x == -12f && pos.y == 9f) // Move Up
             {
-                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-7.7f, 13.3f, 0.0f), Time.time, 1.5f);
+                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-12f, 13f, 0.0f), Time.time, 1.5f);
+            }
+
+            if (pos.x == -12f && pos.y == 13) // Move Right
+            {
+                activeTween = new PlayerTween(player.transform, player.transform.position, new Vector3(-7f, 13f, 0.0f), Time.time, 1.5f);
             }
         }
     }
