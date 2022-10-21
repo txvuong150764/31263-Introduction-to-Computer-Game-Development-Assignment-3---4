@@ -45,7 +45,7 @@ public class LevelGenerator : MonoBehaviour
         grid.SetActive(false);
 
         //PacStudent Position
-        pacStudent.transform.position = new Vector2(-levelMap.GetLength(1) + 2 + 5, levelMap.GetLength(0) - 2);
+        pacStudent.transform.position = new Vector2(-levelMap.GetLength(1) + 2, levelMap.GetLength(0) - 2);
 
         //Ghost Position
         ghost_1.transform.position = new Vector2(2f, 1f);
