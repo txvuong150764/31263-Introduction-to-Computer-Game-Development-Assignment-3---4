@@ -48,10 +48,10 @@ public class LevelGenerator : MonoBehaviour
         pacStudent.transform.position = new Vector2(-levelMap.GetLength(1) + 2, levelMap.GetLength(0) - 2);
 
         //Ghost Position
-        ghost_1.transform.position = new Vector2(2f, 1f);
-        ghost_2.transform.position = new Vector2(-2f, 1f);
-        ghost_3.transform.position = new Vector2(2f, -1f);
-        ghost_4.transform.position = new Vector2(-2f, -1f);
+        ghost_2.transform.position = new Vector2(2f, 1f);
+        ghost_1.transform.position = new Vector2(-2f, 1f);
+        ghost_4.transform.position = new Vector2(2f, -1f);
+        ghost_3.transform.position = new Vector2(-2f, -1f);
 
         //Array to store wall direction
         string[,] dir = new string[levelMap.GetLength(0), levelMap.GetLength(1)];
