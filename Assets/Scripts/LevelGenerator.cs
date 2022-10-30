@@ -20,7 +20,7 @@ public class LevelGenerator : MonoBehaviour
     public GameObject topLeftMaze;
     public GameObject grid;
 
-    int[,] levelMap =
+    public int[,] levelMap =
     {
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
         {2,5,5,5,5,5,5,5,5,5,5,5,5,4},
@@ -40,7 +40,7 @@ public class LevelGenerator : MonoBehaviour
     };
     // Start is called before the first frame update
     void Start()
-    {   
+    {
         //Clear manual level
         grid.SetActive(false);
 
@@ -157,5 +157,10 @@ public class LevelGenerator : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void test()
+    {
+        Debug.Log("test");
     }
 }
